@@ -77,7 +77,7 @@ export default {
 
 <style lang="less" scoped>
 .table-case {
-  width: 1000px;
+  width: 1001px;
   margin: 50px auto;
 
   img {
