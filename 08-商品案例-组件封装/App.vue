@@ -12,7 +12,9 @@
         <td>{{ index + 1 }}</td>
         <td>{{ item.name }}</td>
         <td>
-          <img :src="item.picture" />
+          <img
+            :src="item.picture"
+          />
         </td>
         <td>
           <MyTag v-model="item.tag"></MyTag>
@@ -59,7 +61,7 @@ export default {
     MyTag,
     MyTable
   },
-  data() {
+  data () {
     return {
       // 测试组件功能的临时数据
       tempText: '水杯',
@@ -79,7 +81,6 @@ export default {
 .table-case {
   width: 1000px;
   margin: 50px auto;
-
   img {
     width: 100px;
     height: 100px;
@@ -87,4 +88,5 @@ export default {
     vertical-align: middle;
   }
 }
+
 </style>
