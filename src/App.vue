@@ -2,7 +2,7 @@
   <div class="table-case">
     <MyTable :data="goods">
       <template #head>
-        <th>编号</th>
+        <th>编号嗯嗯</th>
         <th>名称</th>
         <th>图片</th>
         <th width="100px">标签</th>
